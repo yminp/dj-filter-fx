@@ -1,0 +1,692 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "30aaed59-ea31-4d01-b9ec-638b5d55f72c")
+	(paper "USLetter")
+	(title_block
+		(title "DJ filter FX - Block diagram")
+		(date "2026-08-19")
+		(rev "Rev B.2")
+	)
+	(lib_symbols)
+	(rectangle
+		(start 101.6 29.21)
+		(end 224.79 107.95)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "fb2659e7-5331-4c7e-9bd7-19df51334652")
+	)
+	(text "->"
+		(exclude_from_sim no)
+		(at 135.89 112.522 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0c74d4f1-2261-48db-a745-e430a7cf9899")
+	)
+	(text "<-"
+		(exclude_from_sim no)
+		(at 73.152 121.92 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1a2b831c-6d13-43e6-9094-0db1c295e267")
+	)
+	(text "->"
+		(exclude_from_sim no)
+		(at 97.536 49.784 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3a8e507c-85ce-4ef8-adf8-5b5a615207a2")
+	)
+	(text "<-"
+		(exclude_from_sim no)
+		(at 181.356 58.674 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "46674041-6b6b-4448-856d-e1c0dd587a5b")
+	)
+	(text "Resonance control (0.5<=Q<=5)"
+		(exclude_from_sim no)
+		(at 152.146 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4a9f9c1b-e311-4a92-94a1-6c3f6ad7b2f7")
+	)
+	(text "4xTMUX4053"
+		(exclude_from_sim no)
+		(at 184.15 127.254 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4aa310f1-61e0-4276-9429-e24ea6f53145")
+	)
+	(text "<-"
+		(exclude_from_sim no)
+		(at 121.92 75.438 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "52758668-faed-4446-bb34-fa2309f54f08")
+	)
+	(text "<-"
+		(exclude_from_sim no)
+		(at 142.24 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5f24d9a7-9be3-420a-a48d-c6248a7a0dfc")
+	)
+	(text "Rectified (half-wave)"
+		(exclude_from_sim no)
+		(at 76.2 120.904 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "68f4406f-b24d-462b-aa20-0cc3746b7aef")
+	)
+	(text "+/-15V DC"
+		(exclude_from_sim no)
+		(at 184.658 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "74fa441e-4967-409b-976b-89be55526efa")
+	)
+	(text "<-"
+		(exclude_from_sim no)
+		(at 96.774 85.344 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "979ff327-937b-4668-85ba-88b2a008346b")
+	)
+	(text "Main"
+		(exclude_from_sim no)
+		(at 103.378 25.654 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "9bba8755-3e8f-401b-9d0c-857bb1947cd7")
+	)
+	(text "<-"
+		(exclude_from_sim no)
+		(at 168.656 116.078 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a083ba3e-7a43-4d04-8d93-e9ec4919ad4c")
+	)
+	(text "<-"
+		(exclude_from_sim no)
+		(at 181.356 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a2af4e94-bd22-4fc6-af77-a9fd3dabcd9a")
+	)
+	(text "Auxillary"
+		(exclude_from_sim no)
+		(at 55.88 24.892 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left)
+		)
+		(uuid "b0d0f969-5168-4366-ad90-3966f86e667d")
+	)
+	(text "I/O"
+		(exclude_from_sim no)
+		(at 59.436 34.036 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left)
+		)
+		(uuid "cf74396e-2bd3-4dd5-832f-df58c63ea82d")
+	)
+	(text "<-"
+		(exclude_from_sim no)
+		(at 87.122 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "df9f0b1e-4147-4c3e-adfd-10c54bffb746")
+	)
+	(text "<-"
+		(exclude_from_sim no)
+		(at 141.986 46.228 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eb9f7f4f-4279-4fa2-ba82-4a9efa8e02c0")
+	)
+	(text "frequency sweep"
+		(exclude_from_sim no)
+		(at 158.242 49.022 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "efaca5c9-0c07-4ff6-9703-f682ed006a4e")
+	)
+	(text_box "Summing\namplifier"
+		(exclude_from_sim no)
+		(at 106.68 80.2618 0)
+		(size 33.02 14.9882)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+		)
+		(uuid "1f6d798c-7045-48da-a930-5f54b5b24ed8")
+	)
+	(text_box "Input"
+		(exclude_from_sim no)
+		(at 72.39 45.72 0)
+		(size 19.05 11.43)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+		)
+		(uuid "3b4006f5-bcd4-4c14-ab77-f215ac83e257")
+	)
+	(text_box "VCA control"
+		(exclude_from_sim no)
+		(at 193.04 45.72 0)
+		(size 26.67 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+		)
+		(uuid "3b89f75e-257e-43a6-be2b-0c4e67fe02c6")
+	)
+	(text_box "VCA (Q)\n(Q control)"
+		(exclude_from_sim no)
+		(at 153.67 55.88 0)
+		(size 26.67 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+		)
+		(uuid "5b219535-d6e8-44bc-9290-2fa217b3d8c7")
+	)
+	(text_box "Output"
+		(exclude_from_sim no)
+		(at 72.39 81.28 0)
+		(size 19.05 11.43)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+		)
+		(uuid "98717ed5-82a2-42cf-af09-35f786c43d21")
+	)
+	(text_box "LED / Metering"
+		(exclude_from_sim no)
+		(at 66.04 124.46 0)
+		(size 19.05 11.43)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+		)
+		(uuid "bd870ca5-e480-4e6e-b47c-68ccc270de56")
+	)
+	(text_box "VCA (K)\n(f0 control)"
+		(exclude_from_sim no)
+		(at 153.67 34.29 0)
+		(size 26.67 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+		)
+		(uuid "bf609a3e-8687-4d61-b045-f816cacfa21a")
+	)
+	(text_box "Switch"
+		(exclude_from_sim no)
+		(at 102.87 124.46 0)
+		(size 95.25 11.43)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+		)
+		(uuid "c1fb589d-5015-4dc9-b429-aef9c154acf7")
+	)
+	(text_box "Power supply"
+		(exclude_from_sim no)
+		(at 66.04 142.24 0)
+		(size 132.08 11.43)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+		)
+		(uuid "e536392c-f7eb-48ea-9b06-19cedb73e96d")
+	)
+	(text_box "(Voltage-controlled)\nState variable filters"
+		(exclude_from_sim no)
+		(at 106.68 44.7018 0)
+		(size 33.02 14.9882)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+		)
+		(uuid "ec2acc58-196b-47f1-b83b-274bfb5160b3")
+	)
+	(polyline
+		(pts
+			(xy 95.25 119.38) (xy 95.25 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "024fab51-870a-440c-9185-106fb17a7ea6")
+	)
+	(polyline
+		(pts
+			(xy 93.98 86.36) (xy 104.14 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "149cd667-cb1c-4357-8d0e-40c4ec573f43")
+	)
+	(polyline
+		(pts
+			(xy 86.36 130.81) (xy 101.6 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14e8b138-13ea-4c40-8903-433ed330962e")
+	)
+	(polyline
+		(pts
+			(xy 147.32 54.61) (xy 142.24 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b2c0739-0317-41e7-97bc-cc40c8f3bf48")
+	)
+	(polyline
+		(pts
+			(xy 151.13 41.91) (xy 147.32 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d1d23fb-c286-4e20-8941-3b19fac57ff5")
+	)
+	(polyline
+		(pts
+			(xy 123.19 60.96) (xy 123.19 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d2a2b0b-ebc6-4e66-8ded-bf6900785eb7")
+	)
+	(polyline
+		(pts
+			(xy 186.69 41.91) (xy 181.61 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ba11722-5507-4532-a0fc-ebe7ddbb4e01")
+	)
+	(polyline
+		(pts
+			(xy 190.5 46.99) (xy 186.69 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c7082a2-f21f-4bcb-851f-7a431b613587")
+	)
+	(polyline
+		(pts
+			(xy 147.32 41.91) (xy 147.32 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f45206c-2000-440f-8479-8f637f5793b0")
+	)
+	(polyline
+		(pts
+			(xy 186.69 46.99) (xy 186.69 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "420524a4-d43e-40d0-a504-efee72277b8a")
+	)
+	(polyline
+		(pts
+			(xy 186.69 59.69) (xy 181.61 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4243938c-841d-4161-82a5-ef2bb2996ba6")
+	)
+	(polyline
+		(pts
+			(xy 54.61 27.94) (xy 95.25 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46f127da-faf6-4347-9cf1-5a671422d4ba")
+	)
+	(polyline
+		(pts
+			(xy 137.16 110.49) (xy 137.16 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49f54877-9d26-4e70-b41a-a006e4b42b82")
+	)
+	(polyline
+		(pts
+			(xy 147.32 46.99) (xy 142.24 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c98eb45-346e-4315-a6c8-8dde1b309ead")
+	)
+	(polyline
+		(pts
+			(xy 147.32 59.69) (xy 147.32 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e636455-005b-477f-be55-4f88eabc9b4b")
+	)
+	(polyline
+		(pts
+			(xy 186.69 54.61) (xy 186.69 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "606106e3-188e-4106-a813-b12d9ba02aad")
+	)
+	(polyline
+		(pts
+			(xy 54.61 27.94) (xy 54.61 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "627ad112-e64f-4122-85ff-0dd776494720")
+	)
+	(polyline
+		(pts
+			(xy 170.18 110.49) (xy 170.18 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a23f8b42-3021-4f82-9a01-e9d711123666")
+	)
+	(polyline
+		(pts
+			(xy 151.13 59.69) (xy 147.32 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a779827b-b957-4981-a713-d352be2af8fb")
+	)
+	(polyline
+		(pts
+			(xy 55.88 107.95) (xy 92.71 107.95)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "aa1166cc-c37c-47a7-a40c-99c48c9adde1")
+	)
+	(polyline
+		(pts
+			(xy 204.47 119.38) (xy 95.25 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d49b19f0-eb10-42ad-9101-ce265c4caadc")
+	)
+	(polyline
+		(pts
+			(xy 190.5 54.61) (xy 186.69 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8b11805-810f-409f-8cb7-c899b06515ed")
+	)
+	(polyline
+		(pts
+			(xy 93.98 50.8) (xy 104.14 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9ac5e21-69d4-40c7-8cc0-77bda8e9ff1a")
+	)
+	(polyline
+		(pts
+			(xy 205.74 119.38) (xy 205.74 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0356be3-982d-4357-9fac-0f952ef8a950")
+	)
+	(polyline
+		(pts
+			(xy 74.93 109.22) (xy 74.93 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e423d103-d1f3-47c0-852e-a5b6651f34af")
+	)
+	(polyline
+		(pts
+			(xy 54.61 161.29) (xy 205.74 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb8416d3-50a4-4dbb-95d8-c17300a5686a")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
